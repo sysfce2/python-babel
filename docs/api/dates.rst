@@ -40,8 +40,6 @@ Timezone Functionality
 
     A timezone object for the computer's local timezone.
 
-.. autoclass:: TimezoneTransition
-
 Data Access
 -----------
 
@@ -69,3 +67,9 @@ Basic Parsing
 .. autofunction:: parse_time
 
 .. autofunction:: parse_pattern
+
+Exceptions
+----------
+
+.. autoexception:: ParseError
+    :members:
